@@ -1,0 +1,12 @@
+---
+name: WatchDog
+version: 1.0.0
+main: GodWeedZao\WatchDog
+api: 3.0.0
+commands:
+  setop:
+    description: set op players in server
+  removeop:
+    description: remove players from op list
+    default: op
+...

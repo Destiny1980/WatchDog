@@ -1,0 +1,30 @@
+#NOTE: This plugin is a free software in development and in the next updates we will see the addition of other anti-hacks.
+###############################################################################
+#  ░██╗░░░░░░░██╗░█████╗░████████╗░█████╗░██╗░░██╗██████╗░░█████╗░░██████╗░   #
+#  ░██║░░██╗░░██║██╔══██╗╚══██╔══╝██╔══██╗██║░░██║██╔══██╗██╔══██╗██╔════╝░   #
+#  ░╚██╗████╗██╔╝███████║░░░██║░░░██║░░╚═╝███████║██║░░██║██║░░██║██║░░██╗░   #
+#  ░░████╔═████║░██╔══██║░░░██║░░░██║░░██╗██╔══██║██║░░██║██║░░██║██║░░╚██╗   #
+#  ░░╚██╔╝░╚██╔╝░██║░░██║░░░██║░░░╚█████╔╝██║░░██║██████╔╝╚█████╔╝╚██████╔╝   #
+#  ░░░╚═╝░░░╚═╝░░╚═╝░░╚═╝░░░╚═╝░░░░╚════╝░╚═╝░░╚═╝╚═════╝░░╚════╝░░╚═════╝░   #
+###############################################################################
+#                                Anti OP Settings                             #
+###############################################################################
+#Choose which method to check whether it was op or not? *(true = Activate, false = Deactivate)*
+check-op-task: true
+#You can't set both to true! *(I think check with task is better idea)*
+check-op-move: false
+#What to do after finding a hacker? *(true = Activate, false = Deactivate)*
+kick-op-hack: true
+#You can't set both to true! *(I think kick is better idea)*
+ban-op-hack: false
+#What message should we display after kicked/banned hacker to all players?
+#Show hacker name = {hacker_name}
+#Show punishment (kick or ban) = {punishment}
+#Show cheat name = {cheat_name}
+message: '[WatchDog] Player {hacker_name} has {punishment} for using {cheat_name}.'
+#What message should we display after kicked/banned hacker to hacker?
+message-kick: '[WatchDog] You are a cheater!'
+###############################################################################
+#                                report bugs:                                 #
+#                 https://github.com/GodWeedZao/WatchDog                      #
+###############################################################################
